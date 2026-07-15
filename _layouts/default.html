@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#0d0f14; --surface:#151922; --border:#252b38;
+  --text:#e8eaf0; --muted:#9aa3b5; --accent:#5eead4; --accent-dim:#2dd4bf;
+  --max:760px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font:400 17px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max); margin:0 auto; padding:0 24px}
+
+/* header */
+header{border-bottom:1px solid var(--border); background:rgba(13,15,20,.9)}
+header .wrap{display:flex; align-items:center; justify-content:space-between; gap:16px; height:64px}
+.brand{font-weight:700; font-size:19px; color:var(--text); letter-spacing:-.02em}
+.brand:hover{text-decoration:none; color:var(--accent)}
+nav{display:flex; gap:20px; flex-wrap:wrap}
+nav a{color:var(--muted); font-size:15px}
+nav a:hover{color:var(--text); text-decoration:none}
+
+/* content */
+main{padding:56px 0 72px}
+h1{font-size:34px; line-height:1.25; letter-spacing:-.02em; margin:0 0 8px}
+h2{font-size:23px; line-height:1.35; letter-spacing:-.01em; margin:44px 0 12px; padding-top:4px}
+h3{font-size:18px; margin:28px 0 8px}
+p,li{color:#d3d8e3}
+ul,ol{padding-left:22px}
+li{margin:6px 0}
+hr{border:0; border-top:1px solid var(--border); margin:40px 0}
+code{background:var(--surface); border:1px solid var(--border); border-radius:4px; padding:1px 6px; font-size:14px}
+blockquote{margin:24px 0; padding:14px 18px; background:var(--surface); border-left:3px solid var(--accent); border-radius:0 8px 8px 0}
+blockquote p{margin:0; color:var(--muted)}
+.updated{color:var(--muted); font-size:14px; margin:0 0 40px}
+table{width:100%; border-collapse:collapse; margin:20px 0; font-size:15px}
+th,td{border:1px solid var(--border); padding:10px 12px; text-align:left; vertical-align:top}
+th{background:var(--surface)}
+
+/* images */
+img{max-width:100%; height:auto}
+.brand img{height:32px; width:auto; display:block}
+.hero{width:100%; height:clamp(200px,30vw,420px); object-fit:cover; display:block}
+.hero-caption{text-align:center; font-size:13px; color:var(--muted); margin:8px 24px 0}
+img.badge{width:220px; display:block; margin:0 auto}
+p:has(> a > img.badge){text-align:center; margin:32px 0}
+.shots{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; margin:24px 0}
+.shots img{width:100%; border:1px solid var(--border); border-radius:12px}
+
+/* content h1s: Notion exports section headings as h1, so size them like sections
+   and let the page title (the first one) stand out on its own. */
+main h1{font-size:26px; margin:44px 0 12px}
+main .wrap > h1:first-child{font-size:34px; margin:0 0 8px}
+
+/* footer */
+footer{border-top:1px solid var(--border); padding:36px 0 56px; color:var(--muted); font-size:14px}
+footer nav{gap:8px 20px; margin-bottom:18px}
+footer nav a{font-size:14px}
+footer p{color:var(--muted); font-size:14px; margin:6px 0}
+@media (max-width:600px){
+  h1{font-size:28px} h2{font-size:20px} body{font-size:16px}
+  header .wrap{height:auto; padding-top:14px; padding-bottom:14px; flex-direction:column; align-items:flex-start}
+  main{padding:36px 0 48px}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="/"><img src="/assets/logo.png" alt="GenPlay" height="32"></a>
+    <nav>
+      <a href="/faq">FAQ</a>
+      <a href="/support-reporting">Support</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+{% if page.hero %}<img class="hero" src="{{ page.hero }}" alt="{{ site.title }}">
+<p class="hero-caption"><em>Illustration generated with AI. App screenshots below are real.</em></p>{% endif %}
+
+<main>
+  <div class="wrap">
+    {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+    {% if page.updated %}<p class="updated">Last updated: {{ page.updated }}</p>{% endif %}
+    {{ content }}
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="/terms-of-service">Terms of Service</a>
+      <a href="/privacy-policy">Privacy Policy</a>
+      <a href="/community-guideline">Community Guideline</a>
+      <a href="/dmca">DMCA</a>
+      <a href="/delete-account">Delete Account</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <p>&copy; 2025 {{ site.company }}. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

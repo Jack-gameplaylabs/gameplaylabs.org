@@ -1,0 +1,23 @@
+title: GenPlay
+description: See it, know it — real gameplay, no fake ads.
+url: "https://gameplaylabs.org"
+company: Gameplay Labs LLC
+
+# Pretty URLs: /privacy-policy.md -> /privacy-policy/ (and /privacy-policy 301s to it)
+permalink: pretty
+
+# Contact addresses — change here, updates everywhere
+email:
+  support: support@gameplaylabs.org
+  privacy: privacy@gameplaylabs.org
+  copyright: copyright@gameplaylabs.org
+  business: business@gameplaylabs.org
+
+play_store_id: com.gameplaylabs.genpl
+
+exclude:
+  - README.md
+  - archive/
+  - CNAME.example
+
+plugins: []
