@@ -50,24 +50,24 @@ or email us at [support@gameplaylabs.org](mailto:support@gameplaylabs.org).
 
 # About US
 
-[Mission](/mission)
+[Mission](/mission/)
 
-[Team](/team)
+[Team](/team/)
 
-[Value](/value)
+[Value](/value/)
 
-[Contact](/contact)
+[Contact](/contact/)
 
 # Support
 
-[Support & Reporting](/support-reporting)
+[Support & Reporting](/support-reporting/)
 
-[FAQ](/faq)
+[FAQ](/faq/)
 
 # Policies
 
-[Terms of Service](/terms-of-service)
+[Terms of Service](/terms-of-service/)
 
-[Privacy Policy](/privacy-policy)
+[Privacy Policy](/privacy-policy/)
 
-[Community Guideline](/community-guideline)
+[Community Guideline](/community-guideline/)
