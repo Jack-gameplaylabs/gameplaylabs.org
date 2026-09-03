@@ -14,6 +14,7 @@ email:
   business: business@gameplaylabs.org
 
 play_store_id: com.gameplaylabs.genpl
+app_store_url: https://apps.apple.com/us/app/genplay-real-gameplay-videos/id6744894975
 
 exclude:
   - README.md

@@ -10,6 +10,7 @@ description: GenPlay shows you authentic gameplay videos from real players, so y
 ### Tired of cinematic trailers that look nothing like the real game?
 GenPlay shows you authentic gameplay videos from real players, so you can find your next mobile game in seconds—then download it in a tap.
 
+[![Download on the App Store](/assets/app-store-badge.svg){: .badge }]({{ site.app_store_url }})
 [![Get it on Google Play](/assets/google-play-badge.png){: .badge }](https://play.google.com/store/apps/details?id={{ site.play_store_id }})
 
 # What is GenPlay?
