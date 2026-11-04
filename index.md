@@ -2,24 +2,24 @@
 layout: default
 title: GenPlay
 hero: /assets/hero-cover.webp
-description: GenPlay shows you authentic gameplay videos from real players, so you can find your next mobile game in seconds — then download it in a tap.
+description: GenPlay shows you authentic gameplay videos of real games, so you can find your next mobile game in seconds — then download it in a tap.
 ---
 
 # See it, know it — real gameplay, no fake ads.
 
 ### Tired of cinematic trailers that look nothing like the real game?
-GenPlay shows you authentic gameplay videos from real players, so you can find your next mobile game in seconds—then download it in a tap.
+GenPlay shows you authentic gameplay videos of real games, so you can find your next mobile game in seconds—then download it in a tap.
 
 [![Download on the App Store](/assets/app-store-badge.svg){: .badge }]({{ site.app_store_url }})
 [![Get it on Google Play](/assets/google-play-badge.png){: .badge }](https://play.google.com/store/apps/details?id={{ site.play_store_id }})
 
 # What is GenPlay?
 
-### Mobile game ads and trailers rarely show how a game actually plays. GenPlay fixes that. Real players upload short gameplay clips, and you watch genuine footage before you install—no gimmicks, no misleading ads. It's the fastest, most honest way to decide if a game is worth your time.
+### Mobile game ads and trailers rarely show how a game actually plays. GenPlay fixes that. Watch short clips of real gameplay before you install—no gimmicks, no misleading ads. It's the fastest, most honest way to decide if a game is worth your time.
 
 # How it works
 
-### 1. Watch — Browse real gameplay videos uploaded by players.
+### 1. Watch — Browse real gameplay videos.
 
 ### 2. Decide — See how a game actually plays in seconds.
 
@@ -27,13 +27,13 @@ GenPlay shows you authentic gameplay videos from real players, so you can find y
 
 # Why GenPlay
 
-### Real gameplay, not staged ads — authentic footage from real players.
+### Real gameplay, not staged ads — authentic gameplay footage.
 
 ### Tap to download — go from video to the game's store page in one tap.
 
 ### Fast discovery — find new mobile games without wading through fake ads.
 
-### Community-driven — players share clips and help each other find games.
+### Share your own clips — upload gameplay and help others discover great games.
 
 # See it in action
 
@@ -42,9 +42,9 @@ GenPlay shows you authentic gameplay videos from real players, so you can find y
   <img src="/assets/app-screenshot-2.png" alt="GenPlay app — upload video screen">
 </div>
 
-# A safe, authentic community
+# Safe and authentic
 
-### GenPlay is community-driven, and we take content seriously. We provide
+### We take content seriously. We provide
 in-app reporting, active moderation, and clear community guidelines to
 keep gameplay genuine and safe. See something off? Report it in the app
 or email us at [support@gameplaylabs.org](mailto:support@gameplaylabs.org).

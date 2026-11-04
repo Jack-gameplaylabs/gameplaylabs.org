@@ -6,8 +6,8 @@ description: Frequently asked questions about GenPlay.
 
 #### What is GenPlay?
 
-GenPlay is a mobile app where you watch real gameplay videos from
-players and download the games you like, straight from the clip.
+GenPlay is a mobile app where you watch real gameplay videos of mobile games
+and download the ones you like, straight from the clip.
 
 #### Is GenPlay free?
 
@@ -26,4 +26,4 @@ We review reports and remove content that violates our guidelines.
 
 #### Which platforms is GenPlay on?
 
-GenPlay is available now on Google Play (Android). iOS is coming.
+GenPlay is available on Google Play and the App Store.
