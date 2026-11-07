@@ -46,7 +46,7 @@ We may retain limited data after deletion where we are required or permitted to 
 - **Legal and dispute-resolution records** — retained for the period required by applicable law.
 - **Records related to a Terms of Service violation, DMCA action, or fraud prevention** — retained as necessary to enforce our terms and to prevent repeat abuse.
 - **Aggregated or de-identified analytics** that can no longer be linked to you — retained indefinitely.
-- **Analytics and crash data** (Firebase Analytics / Crashlytics) — retained and deleted according to Google's retention policies, as described in our [Privacy Policy](/privacy-policy).
+- **Analytics and crash data** (Firebase Analytics / Crashlytics) — may include information linked to your account, and is retained and deleted according to our Google Analytics retention settings.
 - **Residual copies** — copies of deleted content may persist in secure backups and internal storage systems; they are not accessible through the Service.
 
 ## Timeline
